@@ -14,6 +14,10 @@
 		307C5FBD24A4CF77009B535D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 307C5FBC24A4CF77009B535D /* Assets.xcassets */; };
 		307C5FC024A4CF77009B535D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 307C5FBE24A4CF77009B535D /* LaunchScreen.storyboard */; };
 		307C5FC324A4CF77009B535D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 307C5FC224A4CF77009B535D /* main.m */; };
+		307C5FDD24A503CF009B535D /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = 307C5FDC24A503CF009B535D /* test.png */; };
+		307C5FDF24A503D5009B535D /* 025.png in Resources */ = {isa = PBXBuildFile; fileRef = 307C5FDE24A503D4009B535D /* 025.png */; };
+		307C5FE224A6F1D5009B535D /* SteganographyUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 307C5FE124A6F1D5009B535D /* SteganographyUtil.m */; };
+		307C5FE524A70B62009B535D /* SteganographyHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 307C5FE424A70B62009B535D /* SteganographyHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +33,12 @@
 		307C5FBF24A4CF77009B535D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		307C5FC124A4CF77009B535D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		307C5FC224A4CF77009B535D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		307C5FDC24A503CF009B535D /* test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test.png; sourceTree = "<group>"; };
+		307C5FDE24A503D4009B535D /* 025.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 025.png; sourceTree = "<group>"; };
+		307C5FE024A6F1D5009B535D /* SteganographyUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SteganographyUtil.h; sourceTree = "<group>"; };
+		307C5FE124A6F1D5009B535D /* SteganographyUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SteganographyUtil.m; sourceTree = "<group>"; };
+		307C5FE324A70B62009B535D /* SteganographyHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SteganographyHelper.h; sourceTree = "<group>"; };
+		307C5FE424A70B62009B535D /* SteganographyHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SteganographyHelper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,7 +77,13 @@
 				307C5FB424A4CF74009B535D /* SceneDelegate.m */,
 				307C5FB624A4CF74009B535D /* ViewController.h */,
 				307C5FB724A4CF74009B535D /* ViewController.m */,
+				307C5FE024A6F1D5009B535D /* SteganographyUtil.h */,
+				307C5FE124A6F1D5009B535D /* SteganographyUtil.m */,
+				307C5FE324A70B62009B535D /* SteganographyHelper.h */,
+				307C5FE424A70B62009B535D /* SteganographyHelper.m */,
 				307C5FB924A4CF74009B535D /* Main.storyboard */,
+				307C5FDC24A503CF009B535D /* test.png */,
+				307C5FDE24A503D4009B535D /* 025.png */,
 				307C5FBC24A4CF77009B535D /* Assets.xcassets */,
 				307C5FBE24A4CF77009B535D /* LaunchScreen.storyboard */,
 				307C5FC124A4CF77009B535D /* Info.plist */,
@@ -134,8 +150,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				307C5FC024A4CF77009B535D /* LaunchScreen.storyboard in Resources */,
+				307C5FDF24A503D5009B535D /* 025.png in Resources */,
 				307C5FBD24A4CF77009B535D /* Assets.xcassets in Resources */,
 				307C5FBB24A4CF74009B535D /* Main.storyboard in Resources */,
+				307C5FDD24A503CF009B535D /* test.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,9 +164,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				307C5FE524A70B62009B535D /* SteganographyHelper.m in Sources */,
 				307C5FB824A4CF74009B535D /* ViewController.m in Sources */,
 				307C5FB224A4CF74009B535D /* AppDelegate.m in Sources */,
 				307C5FC324A4CF77009B535D /* main.m in Sources */,
+				307C5FE224A6F1D5009B535D /* SteganographyUtil.m in Sources */,
 				307C5FB524A4CF74009B535D /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
